@@ -1,1 +1,2 @@
-print("YAY")
+def go();
+  print("YAY")
