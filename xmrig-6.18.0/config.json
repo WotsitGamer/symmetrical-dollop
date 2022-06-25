@@ -62,8 +62,8 @@
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "url": "gulf.moneroocean.stream:10128",
+            "user": "85k7Msbg35xZhfG8pqzugLKKCoQDRs4t1Y8gcHgpBqPyVJEeBQtTT3RW7m1RqxnMUhBoPcAWTrgW9QwfGRt7SD642Uwdc51",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
