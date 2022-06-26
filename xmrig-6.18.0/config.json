@@ -26,7 +26,7 @@
         "scratchpad_prefetch_mode": 1
     },
     "cpu": {
-        "enabled": true,
+        "enabled": false,
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
