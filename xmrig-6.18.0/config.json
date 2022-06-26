@@ -49,8 +49,8 @@
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
-        "loader": null,
+        "enabled": true,
+        "loader": "xmrig-cuda.dll",
         "nvml": true,
         "cn/0": false,
         "cn-lite/0": false
