@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+```python
+import requests
+import json
+class X0AM:
+    def get_life(self):
+        res = requests.get("https://life.com/api/v12/relationships/jsonresp.json").text
+        self.bitches = json.loads(res)["bitches"] # more than you
+        self.parents = json.loads(res)["parents"]
+        self.age = json.loads(res)["age"]
+        return self.bitches, self.parents, self.age
+    def get_jobs(self):
+        res = requests.get("https://life.com/api/v12/jobs/jsonresp.json").text
+        self.jobs = [json.loads(res)["job"], json.loads(res)["partime"]]
+        return self.jobs
+    def socials(self):
+        res = requests.get("https://life.com/api/v12/socials/jsonresp.json").text
+        self.insta = json.loads(res)["instagram"]
+        self.discord = json.loads(res)["discord"]
+        return self.insta, self.discord
 
-You can use the [editor on GitHub](https://github.com/WotsitGamer/symmetrical-dollop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    def __init__(self):
+        print(self.get_life())
+        >>> 834568
+        >>> s**** and g*****
+        >>> 12
+        print(self.get_jobs())
+        >>> ["actor", "programmer"]
+        print(self.socials())
+        >>> @xoamified
+        >>> 𝕏𝟘𝔸𝕄𝕀𝔽𝕀𝔼𝔻#9999
+me = X0AM()
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WotsitGamer/symmetrical-dollop/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[![X0AMS GitHub stats](https://github-readme-stats.vercel.app/api?username=X0AM&theme=gruvbox)](https://github.com/X0AM/github-readme-stats)
